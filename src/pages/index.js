@@ -1,14 +1,11 @@
 import * as React from "react"
-import {AboutPage} from './about'
+import Layout  from "../components/layout"
 
 const IndexPage = () =>{
   return (
-    <main>
-      <title>Muqadar Ali Jamali</title>
-      <h1>Welcome to my portfolio site!</h1>
-      <p>I'm making this by following the gatsby tutorial.</p>
-      <a href="/about">AboutPage</a>
-    </main>
+    <Layout pageTitle="Muqadar Ali Jamali">
+      <p>This is my home page using gatsby tutorial </p>
+    </Layout>
   )
 }
 
