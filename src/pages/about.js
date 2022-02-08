@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const AboutPage = () =>{
     return (
-        <Layout pageTitle="Muqadar Ali Jamali">
+        <Layout pageTitle="About">
         <p>This is my about page using gatsby tutorial </p>
       </Layout>
     )
